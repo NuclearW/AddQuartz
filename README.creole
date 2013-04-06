@@ -1,0 +1,7 @@
+== AddQuartz
+
+AddQuartz adds quartz ore to nether worlds
+
+=== Compiling
+
+Maven 3 is required to compile AddQuartz

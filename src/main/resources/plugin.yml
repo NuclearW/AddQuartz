@@ -1,0 +1,6 @@
+name: AddQuartz
+main: com.nuclearw.addquartz.AddQuartz
+version: ${project.version}
+author: NuclearW
+description: AddQuartz adds quartz ore to nether worlds
+load: startup
