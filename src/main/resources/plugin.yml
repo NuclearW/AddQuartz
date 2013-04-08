@@ -4,3 +4,9 @@ version: ${project.version}
 author: NuclearW
 description: AddQuartz adds quartz ore to nether worlds
 load: startup
+commands:
+  addquartz:
+    description: This command is used for controlling AddQuartz. 
+    usage: /<command> world_name -> to add quartz to all chunks in world_name 
+    permission: <plugin name>.addquartz
+    permission-message: You don't have <permission>
