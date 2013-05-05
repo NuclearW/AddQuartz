@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.craftbukkit.v1_5_R2.CraftWorld;
+import org.bukkit.craftbukkit.v1_5_R3.CraftWorld;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.ChunkLoadEvent;
@@ -18,7 +18,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
 
-import net.minecraft.server.v1_5_R2.WorldGenMinable;
+import net.minecraft.server.v1_5_R3.WorldGenMinable;
 
 public class AddQuartz extends JavaPlugin implements Listener, Runnable {
 	private static WorldGenMinable orePopulator = new WorldGenMinable(Material.QUARTZ_ORE.getId(), 13, Material.NETHERRACK.getId());
